@@ -1,10 +1,12 @@
 """ This document is being used for Key2Analytics Consulting company. This code will be updated as analytical data is imported, processed, and stored for future reference. """
-
 #Please be sure to have Math and Statistics import in order to ran statistical analysis on data
 
 import math
 import statistics
 
+def main(): # This will be the main function for displaying the information.
+    print(byline)
+    
 #Defined variables  
 company_name: str = "Key2Analytics Consulting"
 completed_project: int = 10
@@ -54,9 +56,6 @@ byline: str = f"""
 {active_projects}
 {company_stats_string}
 """
-
-def main(): # This will be the main function for displaying the information.
-    print(byline)
 
 #code can only run from this script
 if __name__ == '__main__':
